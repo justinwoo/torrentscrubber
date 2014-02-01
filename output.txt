@@ -1,0 +1,134 @@
+[
+  [
+    "http://www.nyaa.se/?page=view&tid=518489",
+    "[HorribleSubs] Sakura Trick - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518469",
+    "[Kaylith] Sakura Trick - 04 [720p][0B4AF545].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518430",
+    "[m.3.3.w]_D-Frag_03_[720p]_[219F56CC].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518413",
+    "[HorribleSubs] Kill la Kill - 16 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518399",
+    "[Migoto] Strange+ - 04 (1280x720 Hi10P AAC) [927A83C3].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518391",
+    "[HorribleSubs] Strike the Blood - 16 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518388",
+    "[Chihiro]_Golden_Time_-_16_[1280x720_H.264_AAC][440CD2FF].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518378",
+    "[HorribleSubs] Wake Up, Girls! - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518360",
+    "[EG] Gundam Wing - Episodes 13-18 BD (720p, 10bit, Dual-Audio)"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518349",
+    "[HorribleSubs] No-Rin - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518202",
+    "[HorribleSubs] Chuunibyou demo Koi ga Shitai! Ren - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518148",
+    "[Hatsuyuki]_Gin_no_Saji_S2_-_03_[720p][8bit][38400531].mp4"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518099",
+    "[Tsuki]_One_Piece_630_[10bit][1280x720][C241F138].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518098",
+    "[Tsuki]_One_Piece_630_[8bit][1280x720][31935B45].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518064",
+    "[HorribleSubs] Golden Time - 16 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518060",
+    "[HorribleSubs] Magical Warfare - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518056",
+    "[HorribleSubs] Pupa - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518036",
+    "[HorribleSubs] Hozuki no Reitetsu - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518033",
+    "[HorribleSubs] ZX IGNITION - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518027",
+    "[HorribleSubs] Naruto Shippuuden - 348 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518018",
+    "[HorribleSubs] Samurai Flamenco - 15 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=518005",
+    "[HorribleSubs] Gin no Saji S2 - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517997",
+    "[EG] Gundam Wing - Episodes 7-12 BD (720p, 10bit, Dual-Audio)"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517989",
+    "[HorribleSubs] Strange+ - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517979",
+    "[Hatsuyuki]_Noragami_-_03_[8bit][1280x720][9A85F858].mp4"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517960",
+    "[HorribleSubs] Nagi no Asukara - 17 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517952",
+    "[Hatsuyuki]_Magi_S2_-_17_[720p][46CF14BA].mp4"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517938",
+    "[HorribleSubs] Engaged to the Unidentified - 04 [720p].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517912",
+    "[Hatsuyuki]_Hunter_X_Hunter_-_114_[720p][147FCED0].mp4"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517911",
+    "[Hatsuyuki]_Magi_S2_-_17_[10bit][1280x720][27515B03].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517898",
+    "[Critter-Subs] Jewelpet Happiness - 36 (1280x720 H264)[7A8E9204].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517884",
+    "[Hatsuyuki]_Hunter_X_Hunter_-_114_[10bit][1280x720][A699E938].mkv"
+  ],
+  [
+    "http://www.nyaa.se/?page=view&tid=517816",
+    "[Anime-Koi] Inari, Konkon, Koi Iroha - 03 [h264-720p][4F8C6976].mkv"
+  ]
+]
