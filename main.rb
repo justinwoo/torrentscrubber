@@ -1,14 +1,37 @@
 require "json"
 require "selenium-webdriver"
+require "time"
 
 secretfile = IO.read("secret.json")
 secret = JSON.load(secretfile)
 configfile = IO.read("config.json")
 config = JSON.load(configfile)
-
 url = secret["url"]
 rpc = secret["rpc"]
 shows = config["shows"]
+
+def match_tags (title, tags)
+    tag_matches = tags.map do |tag|
+        title.include?(tag)
+    end
+    tags_matched = tag_matches.reduce do |first, second|
+        if first == true and second == true
+            true
+        else
+            false
+        end
+    end
+    tags_matched
+end
+
+def grab_show (driver, show, rpc)
+    href = driver.find_element(:css, 'div.viewdownloadbutton > a').attribute("href")
+    driver.navigate.to(rpc)
+    driver.find_element(:css, '#toolbar-open').click
+    driver.find_element(:css, '#torrent_upload_url').send_keys(href)
+    driver.find_element(:css, '#upload_confirm_button').click
+    show["lastget"] = Time.now
+end
 
 driver = Selenium::WebDriver.for(:firefox)
 driver.navigate.to(url)
@@ -20,22 +43,36 @@ links = elements.map {
   [href, title]
 }
 
-# links.each_with_index {
-#   |x, i|
-#   puts "#{i}: #{x}"
-# }
+links.each do |link|
+    matched_shows = shows.select do |show|
+        title = link[1]
+        if title.include?(show["title"])
+            tags = show["tags"]
+            match_tags(title, tags)
+        else
+            false
+        end
+    end
+    matched_shows.each do |show|
+        url = link[0]
+        driver.navigate.to(url)
+        datetext = driver.find_element(:css, '.vtop').text
+        date = Time.parse(datetext)
+        lastget_text = show["lastget"]
+        if lastget_text == ''
+            grab_show(driver, show, rpc)
+        else
+            lastget = Time.parse(lastget_text)
+            if lastget < date
+                grab_show(driver, show, rpc)
+            else
+                puts "Already have the newest from #{link[1]}"
+            end
+        end
+    end
+end
 
-# IO.write("output.txt", JSON.pretty_generate(links))
+new_config = JSON.pretty_generate(config)
+IO.write('config.json', new_config)
 
-# links.map { 
-#   |link|
-#   puts "link: #{link}"
-#   driver.navigate.to(link)
-#   date = driver.find_element(:css, '.vtop').text
-#   puts "date #{date}"
-# }
-
-
-# output = JSON.pretty_generate(config)
-# IO.write("config.json", output)
-  
+driver.quit
