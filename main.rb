@@ -24,7 +24,8 @@ def match_tags (title, tags)
     tags_matched
 end
 
-def grab_show (driver, show, rpc)
+def grab_show (driver, rpc, title, show)
+	puts "getting #{title}"
     href = driver.find_element(:css, 'div.viewdownloadbutton > a').attribute("href")
     driver.navigate.to(rpc)
     driver.find_element(:css, '#toolbar-open').click
@@ -55,18 +56,19 @@ links.each do |link|
     end
     matched_shows.each do |show|
         url = link[0]
+		title = link[1]
         driver.navigate.to(url)
         datetext = driver.find_element(:css, '.vtop').text
         date = Time.parse(datetext)
         lastget_text = show["lastget"]
         if lastget_text == ''
-            grab_show(driver, show, rpc)
+            grab_show(driver, rpc, title, show)
         else
             lastget = Time.parse(lastget_text)
             if lastget < date
-                grab_show(driver, show, rpc)
+                grab_show(driver, rpc, title, show)
             else
-                puts "Already have the newest from #{link[1]}"
+                puts "Already have the newest from #{title}"
             end
         end
     end
