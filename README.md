@@ -10,5 +10,14 @@ tightly coupled, non-generic ruby program meant to run on a cron-job for pulling
 
 edit config.json to your liking and set this crap to CRON (inb4 you use some other crap)
 
+add a secret.json that matches this schema:
+
+````
+{
+  "url": "http://@@@.@@@@@@.@@@/@@@@@",
+  "rpc": "###.###.###.###:####/transmission/web/"
+}
+````
+
 also, you will have to babysit this, but it's headed crap so don't you expect to have to babysit it anyway?
 
