@@ -64,12 +64,16 @@ links.each do |link|
         if lastget_text == ''
             grab_show(driver, rpc, title, show)
         else
-            lastget = Time.parse(lastget_text)
-            if lastget < date
-                grab_show(driver, rpc, title, show)
-            else
-                puts "Already have the newest from #{title}"
-            end
+			begin
+				lastget = Time.parse(lastget_text)
+				if lastget < date
+					grab_show(driver, rpc, title, show)
+				else
+					puts "Already have the newest from #{title}"
+				end
+			rescue TypeError
+				puts "some stupid shit happened with the parsing #{lastget_text}"
+			end
         end
     end
 end

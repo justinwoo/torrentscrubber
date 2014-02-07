@@ -1,12 +1,20 @@
 {
   "shows": [
     {
+      "title": "Robot Girls",
+      "tags": [
+        "Horrible",
+        "720"
+      ],
+      "lastget": "2014-02-06 19:40:02 -0600"
+    },
+    {
       "title": "Engaged to the Unidentified",
       "tags": [
         "Horrible",
         "720"
       ],
-      "lastget": ""
+      "lastget": "2014-02-06 19:39:57 -0600"
     },
     {
       "title": "Tonari no Seki",
@@ -30,7 +38,7 @@
         "Horrible",
         "720"
       ],
-      "lastget": ""
+      "lastget": "2014-02-06 19:39:54 -0600"
     },
     {
       "title": "ZX Igni",
@@ -46,7 +54,7 @@
         "Horrible",
         "720"
       ],
-      "lastget": ""
+      "lastget": "2014-02-06 19:40:05 -0600"
     },
     {
       "title": "Inari, Konkon",
@@ -54,7 +62,7 @@
         "Horrible",
         "720"
       ],
-      "lastget": ""
+      "lastget": "2014-02-06 19:40:07 -0600"
     },
     {
       "title": "Hunter",
@@ -62,7 +70,7 @@
         "Horrible",
         "720"
       ],
-      "lastget": ""
+      "lastget": "2014-02-06 19:40:09 -0600"
     },
     {
       "title": "D-Frag",
@@ -142,7 +150,7 @@
         "Horrible",
         "720"
       ],
-      "lastget": "2014-02-01 16:59:25 -0600"
+      "lastget": "2014-02-06 19:39:51 -0600"
     },
     {
       "title": "Seito",
